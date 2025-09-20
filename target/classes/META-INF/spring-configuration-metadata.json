@@ -1,0 +1,227 @@
+{
+  "groups": [
+    {
+      "name": "job-dispatcher",
+      "type": "com.example.jobdispatcher.config.ThreadPoolConfig",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig"
+    },
+    {
+      "name": "job-dispatcher.async-job",
+      "type": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig",
+      "sourceMethod": "public com.example.jobdispatcher.config.ThreadPoolConfig.ThreadPoolSettings getAsyncJob() "
+    },
+    {
+      "name": "job-dispatcher.one-time-job",
+      "type": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig",
+      "sourceMethod": "public com.example.jobdispatcher.config.ThreadPoolConfig.ThreadPoolSettings getOneTimeJob() "
+    },
+    {
+      "name": "job-dispatcher.repetitive-job",
+      "type": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig",
+      "sourceMethod": "public com.example.jobdispatcher.config.ThreadPoolConfig.ThreadPoolSettings getRepetitiveJob() "
+    },
+    {
+      "name": "job-retry",
+      "type": "com.example.jobdispatcher.config.RetryConfig",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig"
+    },
+    {
+      "name": "job-retry.one-time-job",
+      "type": "com.example.jobdispatcher.config.RetryConfig$JobTypeRetrySettings",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig",
+      "sourceMethod": "public com.example.jobdispatcher.config.RetryConfig.JobTypeRetrySettings getOneTimeJob() "
+    },
+    {
+      "name": "job-retry.repetitive-job",
+      "type": "com.example.jobdispatcher.config.RetryConfig$JobTypeRetrySettings",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig",
+      "sourceMethod": "public com.example.jobdispatcher.config.RetryConfig.JobTypeRetrySettings getRepetitiveJob() "
+    }
+  ],
+  "properties": [
+    {
+      "name": "job-dispatcher.async-job.core-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings"
+    },
+    {
+      "name": "job-dispatcher.async-job.keep-alive-time",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings"
+    },
+    {
+      "name": "job-dispatcher.async-job.max-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings"
+    },
+    {
+      "name": "job-dispatcher.async-job.queue-capacity",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings"
+    },
+    {
+      "name": "job-dispatcher.async-job.queue-type",
+      "type": "java.lang.String",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings"
+    },
+    {
+      "name": "job-dispatcher.async-job.thread-name-prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings"
+    },
+    {
+      "name": "job-dispatcher.one-time-job.core-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings"
+    },
+    {
+      "name": "job-dispatcher.one-time-job.keep-alive-time",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings"
+    },
+    {
+      "name": "job-dispatcher.one-time-job.max-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings"
+    },
+    {
+      "name": "job-dispatcher.one-time-job.queue-capacity",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings"
+    },
+    {
+      "name": "job-dispatcher.one-time-job.queue-type",
+      "type": "java.lang.String",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings"
+    },
+    {
+      "name": "job-dispatcher.one-time-job.thread-name-prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings"
+    },
+    {
+      "name": "job-dispatcher.repetitive-job.core-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings"
+    },
+    {
+      "name": "job-dispatcher.repetitive-job.keep-alive-time",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings"
+    },
+    {
+      "name": "job-dispatcher.repetitive-job.max-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings"
+    },
+    {
+      "name": "job-dispatcher.repetitive-job.queue-capacity",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings"
+    },
+    {
+      "name": "job-dispatcher.repetitive-job.queue-type",
+      "type": "java.lang.String",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings"
+    },
+    {
+      "name": "job-dispatcher.repetitive-job.thread-name-prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.example.jobdispatcher.config.ThreadPoolConfig$ThreadPoolSettings"
+    },
+    {
+      "name": "job-retry.default-initial-delay",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig"
+    },
+    {
+      "name": "job-retry.default-jitter",
+      "type": "java.lang.Double",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig"
+    },
+    {
+      "name": "job-retry.default-max-attempts",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig"
+    },
+    {
+      "name": "job-retry.default-max-delay",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig"
+    },
+    {
+      "name": "job-retry.default-multiplier",
+      "type": "java.lang.Double",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig"
+    },
+    {
+      "name": "job-retry.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig"
+    },
+    {
+      "name": "job-retry.non-retryable-exceptions",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig"
+    },
+    {
+      "name": "job-retry.one-time-job.initial-delay",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig$JobTypeRetrySettings"
+    },
+    {
+      "name": "job-retry.one-time-job.jitter",
+      "type": "java.lang.Double",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig$JobTypeRetrySettings"
+    },
+    {
+      "name": "job-retry.one-time-job.max-attempts",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig$JobTypeRetrySettings"
+    },
+    {
+      "name": "job-retry.one-time-job.max-delay",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig$JobTypeRetrySettings"
+    },
+    {
+      "name": "job-retry.one-time-job.multiplier",
+      "type": "java.lang.Double",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig$JobTypeRetrySettings"
+    },
+    {
+      "name": "job-retry.repetitive-job.initial-delay",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig$JobTypeRetrySettings"
+    },
+    {
+      "name": "job-retry.repetitive-job.jitter",
+      "type": "java.lang.Double",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig$JobTypeRetrySettings"
+    },
+    {
+      "name": "job-retry.repetitive-job.max-attempts",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig$JobTypeRetrySettings"
+    },
+    {
+      "name": "job-retry.repetitive-job.max-delay",
+      "type": "java.lang.Long",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig$JobTypeRetrySettings"
+    },
+    {
+      "name": "job-retry.repetitive-job.multiplier",
+      "type": "java.lang.Double",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig$JobTypeRetrySettings"
+    },
+    {
+      "name": "job-retry.retryable-exceptions",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.example.jobdispatcher.config.RetryConfig"
+    }
+  ],
+  "hints": []
+}
